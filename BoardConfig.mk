@@ -86,6 +86,7 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 TW_IGNORE_MISC_WIPE_DATA := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_NO_EXFAT_FUSE := true
+TW_EXTRA_LANGUAGES := true
 
 # Supress error messages while building
 ALLOW_MISSING_DEPENDENCIES := true
