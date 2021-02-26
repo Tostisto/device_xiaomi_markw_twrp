@@ -20,7 +20,7 @@ PRODUCT_RELEASE_NAME := markw
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 #Fix HW FDE when building with Pie
 PRODUCT_PROPERTY_OVERRIDES += \
